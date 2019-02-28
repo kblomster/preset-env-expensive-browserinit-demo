@@ -1,0 +1,21 @@
+body {
+  color: var(--mainColor);
+  font-family: system-ui;
+  overflow-wrap: break-word;
+}
+
+:--heading {
+  background: solid #fff;
+
+  @media (--viewport-medium) {
+    margin-block: 0;
+  }
+}
+
+a {
+  color: rgb(0 0 100% / 90%);
+
+  &:hover {
+    color: rebeccapurple;
+  }
+}
